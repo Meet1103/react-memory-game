@@ -1,0 +1,24 @@
+.difficulty-level-container {
+	display: flex;
+	flex-direction: column;
+	height: 70vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.difficulty-level-heading {
+	margin: 55px auto;
+}
+
+.difficulty-level-btn {
+	margin: 15px;
+	width: 30vw;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	background: rgba(5, 18, 61, 0.65);
+	padding: 25px;
+	font-size: larger;
+	font-weight: 700;
+}

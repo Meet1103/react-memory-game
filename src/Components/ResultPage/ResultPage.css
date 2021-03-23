@@ -1,0 +1,14 @@
+.result-page-container {
+	display: flex;
+	height: 75vh;
+	align-items: center;
+	justify-content: center;
+}
+
+.result-page-text {
+	border-radius: 10px;
+	background: rgba(5, 18, 61, 0.45);
+	padding: 25px;
+	font-size: larger;
+	font-weight: 800;
+}
