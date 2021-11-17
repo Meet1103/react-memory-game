@@ -1,8 +1,8 @@
 {
-  "name": "memory-game",
+  "name": "react-memory-game",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Meet1103.github.io/memory-game",
+  "homepage": "http://Meet1103.github.io/react-memory-game",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",

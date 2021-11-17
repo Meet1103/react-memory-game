@@ -6,7 +6,6 @@
 	transform: scale(1);
 	transform-style: preserve-3d;
 	transition: transform 0.5s;
-	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 .card:active {
@@ -24,15 +23,21 @@
 	height: 100%;
 	position: absolute;
 	border-radius: 10px;
-	background: rgba(5, 18, 61, 0.8);
+	background: rgba(0, 0, 0, 0.788);
 	backface-visibility: hidden;
 }
 
-.back-face {
-	border: 1px solid black;
+.front-face {
+	padding: 10px;
+	transform: rotateY(180deg);
 }
 
-.front-face {
-	padding: 20px;
-	transform: rotateY(180deg);
+@media screen and (max-width: 740px) {
+	.card {
+		width: calc(33% - 10px);
+		height: 19vh;
+		position: relative;
+		transform: scale(1);
+		transform-style: preserve-3d;
+	}
 }

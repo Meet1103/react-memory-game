@@ -1,8 +1,16 @@
 .game-board {
-	width: 550px;
-	height: 550px;
+	width: 55vw;
+	height: 85vh;
 	margin: 10px auto;
 	display: flex;
+	align-content: center;
 	flex-wrap: wrap;
 	perspective: 1000px;
+}
+
+@media screen and (max-width: 740px) {
+	.game-board {
+		width: 80vw;
+		height: 85vh;
+	}
 }

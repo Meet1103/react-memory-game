@@ -7,8 +7,19 @@
 
 .result-page-text {
 	border-radius: 10px;
-	background: rgba(5, 18, 61, 0.45);
+	letter-spacing: 1px;
+	background: rgba(0, 0, 0, 0.788);
 	padding: 25px;
 	font-size: larger;
 	font-weight: 800;
+}
+
+@media screen and (max-width: 740px) {
+	.result-page-container {
+		margin: 0px 25px;
+	}
+	.result-page-text {
+		font-size: medium;
+		font-weight: 700;
+	}
 }

@@ -1,0 +1,37 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	letter-spacing: 1px;
+	align-items: center;
+	padding: 10px;
+	width: 100vw;
+	border-bottom: 1px solid black;
+	background: rgba(0, 0, 0, 0.788);
+}
+
+.restart-game-btn {
+	background: #ee5522cc;
+	letter-spacing: 1px;
+	border: none;
+	outline: none;
+	border-radius: 15px;
+	color: white;
+	padding: 10px 15px;
+	cursor: pointer;
+	font-size: medium;
+	font-weight: 700;
+}
+
+@media screen and (max-width: 740px) {
+	.heading {
+		font-size: larger;
+		font-weight: 900;
+	}
+
+	.restart-game-btn {
+		padding: 10px;
+		cursor: pointer;
+		font-size: small;
+		font-weight: 900;
+	}
+}

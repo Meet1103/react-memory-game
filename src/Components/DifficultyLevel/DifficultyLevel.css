@@ -17,8 +17,22 @@
 	outline: none;
 	border: none;
 	border-radius: 10px;
-	background: rgba(5, 18, 61, 0.65);
+	background: rgba(0, 0, 0, 0.788);
+	color: white;
 	padding: 25px;
 	font-size: larger;
 	font-weight: 700;
+}
+
+@media screen and (max-width: 740px) {
+	.difficulty-level-heading {
+		margin: 55px 20px;
+		font-size: larger;
+		font-weight: 900;
+	}
+
+	.difficulty-level-btn {
+		width: 50vw;
+		padding: 15px;
+	}
 }
